@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="color:#900C3F">Welcome to My Online Bookstore</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="featured-books">
+            <div class="container">
+                <h2>Featured Books</h2>
+                 <div class="book">
+                    <img src="book1.jpg" alt="Book 1">
+                    <h3>True Dead</h3>
+                    <p >Jane used to hunt vampires, but now she’s their queen. She’s holed up in the mountains with the Yellowrock Clan, enjoying a little peace, when a surprise attack on her people proves that trouble is brewing. Someone is using very old magic to launch a bid for power, and it’s all tied to the place where Jane was first drawn into the world of Leo Pellissier—the city of New Orleans.</p>
+                    <a href="book1-details.html">More Info</a>
+                </div>
+ 
+                <div class="book">
+                    <img src="book2.jpg" alt="Book 2">
+                    <h3>The Secret Garden</h3>
+                   <p>The Secret Garden opens by introducing us to Mary Lennox, a sickly, foul-tempered, unsightly little girl who loves no one and whom no one loves. At the outset of the story, she is living in India with her parents—a dashing army captain and his frivolous, beautiful wife—but is rarely permitted to see them</p>
+                    <a href="book2-details.html">More Info</a>
+                </div>
+
+                <div class="book">
+                    <img src="book3.jpg" alt="Book 3">
+                    <h3>Home Coming</h3>
+                    <p>Plot introduction. Homecoming, set around the late 1970s, tells the story of four siblings aged between six and thirteen, whose mother abandons them one summer afternoon in their car next to a Connecticut shopping mall during an aborted road trip to a family member in Bridgeport.</p>
+                    <a href="book3-details.html">More Info</a>
+                </div>
+                <p>Customers can search for a book by title or author using a web browser, add it to their shopping cart, and then purchase it using a debit or credit card transaction.</p>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>A virtual store on the Internet where customers can browse the catalog and select books of interest. At checkout time, the items in the e-library will be presented as an order. </p>
+            </div>
+        </section>
+
+        <section id="customer-reviews">
+            <div class="container">
+                <h2>Customer Reviews</h2>
+                <p>Provide useful, constructive feedback. ...</p>
+            </div>
+        </section>
+
+        <section id="book-list">
+            <div class="container">
+                <h2>Book List</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>True Dead</td>
+                            <td>Faith Hunter</td>
+                            <td>$19.99</td>
+                        </tr>
+                        <tr>
+                            <td>The Secret Garden</td>
+                            <td>Frances Hodgson</td>
+                            <td>$14.99</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p style"color:#900C3F">&copy; 2024 My Online Bookstore</p>
+        </div>
+    </footer>
+
+</body>
+</html>

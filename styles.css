@@ -1,0 +1,176 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #900C3F;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #900C3F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #900C3F;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #900C3F;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Book section styles */
+#featured-books .book {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#featured-books .book img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#featured-books .book h3 {
+    margin-top: 0;
+}
+
+#featured-books .book p {
+    margin-bottom: 10px;
+}
+
+#featured-books .book a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#featured-books .book a:hover {
+    background-color: #555;
+}
+
+/* Table styles */
+#book-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#book-list table th,
+#book-list table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#book-list table th {
+    background-color: #f0f0f0;
+}
+
+/* Form styles */
+#contact form {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact form button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #900C3F;
+    color: #900C3F;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+

@@ -1,0 +1,21 @@
+[
+    {
+        "title": "True Dead",
+        "author": "Faith Hunter",
+        "description": "Jane used to hunt vampires...",
+        "image": "book1.jpg"
+    },
+    {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson",
+        "description": "The Secret Garden opens...",
+        "image": "book2.jpg"
+    },
+    {
+        "title": "Home Coming",
+        "author": "Some Author",
+        "description": "Plot introduction...",
+        "image": "book3.jpg"
+    }
+    // Add more books as needed
+]
